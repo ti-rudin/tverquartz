@@ -53,7 +53,7 @@
 		}
 
 		.logo {
-			height: 44px;
+			
 			flex: 1;
 		}
 

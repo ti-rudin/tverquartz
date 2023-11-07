@@ -5,23 +5,20 @@
 <div class="logo" class:animated>
 	<svg
 		id="logo-text"
-		width="723.84009"
-		height="116.720268"
-		viewBox="0 0 723.84009 116.720269"
+		width="50"
+		height="50"
+		viewBox="0 0 94 94"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
-		<text
-			xml:space="preserve"
-			id="text"
-			transform="translate(-278.77228,-206.83728)"
-			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan
-					style="font-size:106.667px;font-family:YoungSerif;"
-					id="tspan1317">Site Logo</tspan
-				></tspan
-			></text
-		>
+		<path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M93.0386 0V88.5422L59.1295 39.3636H58.5386V93.0909H36.0386V0H55.4022L92.0386 53.6364L92.8113 54.7903V0H93.0386Z"
+			fill="black"
+		/>
+		<path d="M92.7977 0H93.0523V88.543L92.8917 88.3203L92.7977 88.1641V0Z" fill="black" />
+		<rect x="0" y="0" width="100%" height="100%" stroke="black" />
 	</svg>
 </div>
 
@@ -30,7 +27,7 @@
 
 	.logo {
 		width: auto;
-		height: 100%;
+		
 
 		display: flex;
 		gap: 16px;
@@ -40,21 +37,12 @@
 			gap: 8px;
 		}
 
-		#logo-text {
-			width: auto;
-			height: 100%;
-			max-height: 28px;
-
-			#text {
-				transition: all 0.2s ease-in-out;
-				fill: var(--color--text);
-			}
-		}
+		
 
 		&:hover {
-			#logo-text {
+			
 				filter: drop-shadow(0px 0px 3px var(--color--primary));
-			}
+			
 		}
 	}
 
